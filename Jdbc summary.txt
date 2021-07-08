@@ -1,0 +1,12 @@
+JDBC
+.................................
+Summary of Steps for Selenium Database Testing
+Step 1) Make a connection to the Database using method.
+
+DriverManager.getConnection(URL, "userid", "password") 
+Step 2) Create Query to the Database using the Statement Object.
+
+Statement stmt = con.createStatement();
+Step 3) Send the query to database using execute query and store the results in the ResultSet object.
+
+ResultSet rs = stmt.executeQuery(select * from employee;);

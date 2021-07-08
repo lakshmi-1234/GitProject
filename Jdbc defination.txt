@@ -1,0 +1,10 @@
+JDBC
+.................................
+JDBC (Java Database Connectivity) is a SQL level API that allows you to execute SQL statements. It is responsible for the connectivity between the Java Programming language and a wide range of databases. The JDBC API provides the following classes and interfaces
+
+Driver Manager
+Driver
+Connection
+Statement
+ResultSet
+SQLException

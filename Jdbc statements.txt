@@ -1,0 +1,32 @@
+JDBC
+.................................
+
+
+*How to create a database?
+create database databasename;
+*How to know what database table should go?
+use databasename;
+*How to create table in database?
+create table tablename(name varchar(20),int no,location varchar(20),int age);
+
+*How to know outerstructure of any table?
+describe tablename;
+
+*How to insert values into table?
+insert into tablename values('sam',1,'pune'56);
+
+
+**how to make connection to sql database?
+DriverManager.getConnection(URL,"userid","password")
+
+userid-username configured in database
+password-password of user for database connectn.
+
+URL-jdbc::<dbtype>://ipaddress::portnumber/dbname 
+
+jdbc::mysql://localhost::3306(default)/dbname;
+
+
+**code to create connection?
+Connection con=jdbc::mysql://localhost::3306(default)/dbname;
+
